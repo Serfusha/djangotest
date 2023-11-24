@@ -22,5 +22,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('machines/', index),           #http://127.0.0.1:8000/machines/
     path('', indexe) # так как в кавычках ничего не указано, то это будет показывать сайт при его открытии.
-
 ]
